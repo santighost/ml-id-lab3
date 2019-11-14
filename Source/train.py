@@ -56,6 +56,7 @@ with open(trainingData,'r') as f:
 
 #
 # Build training set and test set
+# Lets build again
 #
 def loadDataset(filename, lines, columns):
     # Features are one-hot encoded in a sparse matrix
